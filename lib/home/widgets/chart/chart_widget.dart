@@ -7,6 +7,9 @@ class ChartWidget extends StatelessWidget {
     return Container(
       height: 80,
       width: 80,
+      margin: const EdgeInsets.symmetric(
+        horizontal: 24,
+      ),
       child: Stack(
         children: [
           Center(
